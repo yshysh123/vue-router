@@ -1,5 +1,6 @@
 ﻿# vue-router
  Vue路由
+ 
 **一、配置 Router**
 
  用 vue-cli 创建的初始模板里面，并没有 vue-router，需要通过 npm 安装
@@ -154,7 +155,7 @@ home.vue 中引入了 header.vue 组件，其中含有导航菜单
 
 然后还可以使用 $route.params.id 来获取到对应的 id
 
-四、编程式导航
+**四、编程式导航**
 实际情况下，有很多按钮在执行跳转之前，还会执行一系列方法，这时可以使用 this.$router.push(location) 来修改 url，完成跳转
 ```
 <div>
